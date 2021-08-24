@@ -1,4 +1,6 @@
 {
+  "name": "sample-components",
+  "author": "Sanjay-87",
   "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
@@ -11,17 +13,26 @@
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
     "expo-updates": "~0.8.1",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-paper": "^4.9.2",
     "react-native-reanimated": "~2.2.0",
     "react-native-screens": "~3.4.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-text-input-mask": "^3.1.4",
     "react-native-unimodules": "~0.14.5",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "babel-plugin-inline-react-svg": "^2.0.1"
   },
-  "private": true
+  "repository": "git@github.com:Sanjay-87/sample-components.git",
+  "private": false,
+  "version": "0.0.1"
 }
